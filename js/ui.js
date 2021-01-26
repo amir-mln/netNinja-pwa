@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
-  // nav menu
+  // reading from the dom (this is not in the course. i did it myself)
   const menus = document.querySelectorAll('.side-menu');
-  M.Sidenav.init(menus, {edge: 'right'});
-  // add recipe form
   const forms = document.querySelectorAll('.side-form');
+  // modifyig the dom
+  M.Sidenav.init(menus, {edge: 'right'});
   M.Sidenav.init(forms, {edge: 'left'});
 });

@@ -6,6 +6,9 @@
 }
 
 /* layout styles */
+i{
+  cursor: pointer;
+}
 nav{
   background: var(--primary);
   border-bottom: 10px solid var(--secondary);
