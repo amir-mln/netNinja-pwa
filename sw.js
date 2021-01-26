@@ -7,3 +7,5 @@ self.addEventListener("install", (e) =>
 self.addEventListener("activate", (e) =>
   console.log("%c service worker is activated", "color: green")
 );
+
+self.addEventListener("fetch", (fetchObj) => console.log({ fetchObj }));
